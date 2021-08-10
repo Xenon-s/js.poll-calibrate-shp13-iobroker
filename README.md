@@ -38,7 +38,7 @@ Ein neues JS Script in iobroker erstellen und das [Script V 0.2](https://raw.git
 
 ## Changelog
 
-### 0.2 (2020-12-11)
+### 0.2 (2021-10-08)
 * (xenon-s) Änderung des Triggernamens
 
 ### 0.1 (2020-12-11)
