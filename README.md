@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # js.poll-calibrate-shp13-iobroker (Version 0.2)
 Dieses Script ermöglicht es, unzählige Bewegungsmelder, Schaltaktoren (Steckdosen, Lampen, etc.) und Lichtsensoren im ioBroker miteinander zu verknüpfen
 
@@ -65,3 +66,14 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.<br>
 
+=======
+einfach das Script aus script.txt in ein neues ioBroker JS importieren
+
+const arr = [
+    // id: -> Name aus dem zigbee adapter
+    // newPath: -> neuer Pfad mit kalibrierten werten
+    
+    {/* wama */ id: '588e81fffed3904d', newPath: '0_userdata.0.Verbrauch.gerechnet.Wama' },
+    {/*trockner*/ id: '842e14fffe3a4bb3', newPath: '0_userdata.0.Verbrauch.gerechnet.Trockner' },
+];
+>>>>>>> main
