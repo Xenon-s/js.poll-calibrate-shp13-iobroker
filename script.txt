@@ -7,11 +7,10 @@ const inst = 'zigbee.0' // -> Pfad zur zigbee Instanz
 
 const arr = [ // hier die Geraete eintragen
     // id: -> Name aus dem zigbee adapter
-    // path: -> pfad zum load_power
     // newPath: -> neuer Pfad mit kalibrierten werten
     
-    {/* wama */ id: '588e81fffed3904d', path: 'zigbee.0.588e81fffed3904d.load_power', newPath: '0_userdata.0.Verbrauch.gerechnet.Wama' },
-    {/*trockner*/ id: '842e14fffe3a4bb3', path: 'zigbee.0.842e14fffe3a4bb3.load_power', newPath: '0_userdata.0.Verbrauch.gerechnet.Trockner' },
+    {/* wama */ id: '588e81fffed3904d', newPath: '0_userdata.0.Verbrauch.gerechnet.Wama' },
+    {/*trockner*/ id: '842e14fffe3a4bb3', newPath: '0_userdata.0.Verbrauch.gerechnet.Trockner' },
 ];
 
 /*
@@ -79,7 +78,7 @@ function loop() {
 // create trigger
 arr.forEach(async objTemp => {
     try {
-        on({ id: objTemp.path, change: "any", ack: true }, async obj => {    // Trigger Licht an / aus
+        on({ id: `${inst}.${objTemp.id}.load_power`, change: "any", ack: true }, async obj => {    // Trigger Licht an / aus
             let val = 0
             val = obj.state.val;
             val = val * faktor;
