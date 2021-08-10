@@ -23,7 +23,7 @@ Ein neues JS Script in iobroker erstellen und das Script aus "script-bwm-script.
 
 ## Einstellungen
 
-![Einstellungen.png](/admin/Einstellungen.png)
+![einstellungen.png](/admin/einstellungen.png)
 
 **faktor**: Hier wird der Kalibrierfaktor in Dezimalform eingegeben <br>
 **poll**: Zeit in Millisekunden, wie oft die Werte geholt werden sollen. Nicht weniger als 10000 eingeben, da sonst die Belastung für das System unnötig hoch wird<br>
