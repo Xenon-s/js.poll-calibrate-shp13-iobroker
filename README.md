@@ -1,6 +1,6 @@
 einfach das Script aus script.txt in ein neues ioBroker JS importieren
 
-const arr = [ // hier die Geraete eintragen
+const arr = [
     // id: -> Name aus dem zigbee adapter
     // newPath: -> neuer Pfad mit kalibrierten werten
     
