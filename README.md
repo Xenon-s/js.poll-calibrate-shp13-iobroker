@@ -1,21 +1,9 @@
 # js.poll-calibrate-shp13-iobroker (Version 0.2)
-Dieses Script ermöglicht es, unzählige Bewegungsmelder, Schaltaktoren (Steckdosen, Lampen, etc.) und Lichtsensoren im ioBroker miteinander zu verknüpfen
-
-## Was sollte beachtet werden und was ist möglich?
-Der timeout beginnt erst dann zu laufen, wenn der Datenpunkt "motion" des jeweiligen Bewegungsmelders den Wert "false" zurückgibt. Sollten mehrere Bewegungsmelder eine Lampe schalten, wird gewartet bis alle BWM "false" melden. <br>
-*Hinweis*: Die Einschaltdauer sollte nicht nur wenige Sekunden betragen, da einige Bewegungsmelder einen cooldown haben, bevor sie wieder Bewegungen erkennen und melden. Da führt dazu, dass eventuell Lampen bei zu kurzer Einschaltdauer ausschalten, obwohl man noch im Raum ist! <br>
-Wird ein Lichtsensor verwendet, kann man ihn pro Bewegungsmelder zuordnen. Auch kann man die Einschaltdauer pro Lampe einzeln festlegen. Das Script ist modular aufgebaut, d.h. es kann jeder Bewegungsmelder mit jeder Lampe (auch mehreren) gekoppelt werden. Das gleiche gilt für Lichtsensoren. <br>
-
-
-## Script-Updates einspielen
-- Das Script ist so aufgebaut, dass Updates keinen Einfluss auf eure Geräteliste haben. Ihr müsst eure Geräte nur einmal anlegen und das wars dann auch schon. Die folgende Zeile gibt euch einen Hinweis darauf, ab wo ihr das Script bei einem Update kopieren und wieder einfügen müsst. <br>
-  ![update_Zeile.png](/admin/update_Zeile.png)
- <br>
-
+Dieses Skript ermöglicht es, die Daten von Blitzwolf SHP13 zu pollen und zu kalibrieren (im ioBroker)
 
 # Anleitung
 ## Script erstellen
-Ein neues JS Script in iobroker erstellen und das Script aus "script-bwm-script.js" kopieren und einfügen. <br>
+Ein neues JS Script in iobroker erstellen und das [Script V 0.2](https://raw.githubusercontent.com/Xenon-s/js.poll-calibrate-shp13-iobroker/main/script.txt) kopieren und einfügen. <br>
 
 ![erstellung_1.png](/admin/erstellung_1.png) <br>
 ![erstellung_2.png](/admin/erstellung_2.png) <br>
