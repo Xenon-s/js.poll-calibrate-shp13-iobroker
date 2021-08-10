@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # js.poll-calibrate-shp13-iobroker (Version 0.2)
 Dieses Script ermöglicht es, unzählige Bewegungsmelder, Schaltaktoren (Steckdosen, Lampen, etc.) und Lichtsensoren im ioBroker miteinander zu verknüpfen
 
@@ -76,4 +75,3 @@ const arr = [
     {/* wama */ id: '588e81fffed3904d', newPath: '0_userdata.0.Verbrauch.gerechnet.Wama' },
     {/*trockner*/ id: '842e14fffe3a4bb3', newPath: '0_userdata.0.Verbrauch.gerechnet.Trockner' },
 ];
->>>>>>> main
