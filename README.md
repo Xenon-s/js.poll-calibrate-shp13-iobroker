@@ -19,10 +19,10 @@ Ein neues JS Script in iobroker erstellen und das [Script V 0.2](https://raw.git
 {/* wama */ id: '588e81fffed3904d', newPath: '0_userdata.0.Verbrauch.gerechnet.Wama' },<br>
 
 / *NAME EURES DEVICES* / (Ist nur ein Kommentar und hat keinen Einfluss auf das Skript)<br>
-![id.png](/admin/id.png) <br>
 **id**: 'HIER DIE ID DES BLITZWOLF GERÄTES EINGEBEN', <br>
-![pfad_neu.png](/admin/pfad_neu.png) <br>
+![id.png](/admin/id.png) <br>
 **newPath**: 'HIER DEN PFAD ZUM NEUEN KALIBRIERTEN DP ANGEBEN' <- Wird dann automatisch neu erstellt!
+![pfad_neu.png](/admin/pfad_neu.png) <br>
 
 
 
