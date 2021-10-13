@@ -38,7 +38,7 @@ Ein neues JS Script in iobroker erstellen und das [Script V 0.2](https://raw.git
 
 ## Changelog
 
-### 0.21 (13-10-2021)
+### 0.2.1 (13-10-2021)
 * (xenon-s) Rundung auf zwei Nachkommastellen
 
 ### 0.2 (10-08-2021)
