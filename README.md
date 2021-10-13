@@ -38,10 +38,13 @@ Ein neues JS Script in iobroker erstellen und das [Script V 0.2](https://raw.git
 
 ## Changelog
 
-### 0.2 (2021-10-08)
+### 0.21 (13-10-2021)
+* (xenon-s) Rundung auf zwei Nachkommastellen
+
+### 0.2 (10-08-2021)
 * (xenon-s) Änderung des Triggernamens
 
-### 0.1 (2020-12-11)
+### 0.1 (11-12-2020)
 * (xenon-s) initial commit
 
 
