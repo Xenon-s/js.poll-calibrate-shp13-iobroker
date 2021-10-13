@@ -81,7 +81,7 @@ arr.forEach(async objTemp => {
         on({ id: `${inst}.${objTemp.id}.load_power`, change: "any", ack: true }, async obj => {    // Trigger Licht an / aus
             let val = 0
             val = obj.state.val;
-            val = val * faktor;
+            val = Math.round(val * faktor * 100) / 100;
             setStateAsync(objTemp.newPath, val, true)
         });
     } catch (error) {
